@@ -16,10 +16,9 @@ const data = [
 export default function ExFour() {
     return (
         <div>
-            {
-                data.map((el, i) =>
-                    <p key={i}>Mi chiamo {el.name}, il mio colore preferito è il {el.favColor}</p>)
-            }
+            <p >Mi chiamo {data[0].name}, il mio colore preferito è il {data[0].favColor}</p>
+            <p >Mi chiamo {data[1].name}, il mio colore preferito è il {data[1].favColor}</p>
+            <p >Mi chiamo {data[2].name}, il mio colore preferito è il {data[2].favColor}</p>
         </div>
     )
 }

@@ -3,6 +3,6 @@ import './App.css';
 
 export default function ExOne ()  {
     return(
-        <article className="center-me" />
+        <article className="center_me" />
     )
 }
